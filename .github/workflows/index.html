@@ -37,7 +37,7 @@ actor {
       serviceType;
       message;
       timestamp = Time.now();
-      <a href="mailto:soulguidance1313@gmail.com">Contact Us</a>
+      
     };
 
     inquiries.add(nextInqId, inquiry);
@@ -46,6 +46,7 @@ actor {
 
   public query ({ caller }) func getAllInquiries() : async [Inquiry] {
     inquiries.values().toArray().sort();
+      <a href="mailto:soulguidance1313@gmail.com">Contact Us</a>
   };
 };
 
